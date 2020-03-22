@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.gomeImgLoad {
+	width: 750rpx;
+	height: auto;
+}
+

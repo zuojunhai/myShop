@@ -1,0 +1,91 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {}
+        },
+        {
+			"path": "pages/new/new",
+			"style": {}
+        },
+        {
+			"path": "pages/cart/cart",
+			"style": {}
+        },
+        {
+			"path": "pages/member/member",
+			"style": {}
+		}
+	    ,{
+            "path" : "components/goods_list/goods_list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods_detail/goods_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh":true
+			}
+        }
+		,{
+		    "path" : "pages/contact/contact",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/community/community",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/study/study",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/news_item/news_item",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news_detail/news_detail",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "我的商店",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#ccc",
+		"selectedColor":"#b50e03",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/new/new",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png",
+				"text": "资讯"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png",
+				"text": "会员"
+			}
+		]
+	}
+}

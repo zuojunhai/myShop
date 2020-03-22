@@ -1,0 +1,1 @@
+<view class="shop data-v-7cd383a5"><goodslist vue-id="1" goods="{{goods}}" data-event-opts="{{[['^goodsItemClick',[['goDetail']]]]}}" bind:goodsItemClick="__e" class="data-v-7cd383a5" bind:__l="__l"></goodslist><block wx:if="{{flag}}"><view class="bottom data-v-7cd383a5">我是有底线的...</view></block></view>
